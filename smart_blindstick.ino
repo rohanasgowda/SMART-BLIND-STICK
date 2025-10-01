@@ -7,14 +7,14 @@ from ubinascii import b2a_base64
 from machine import Pin, I2C
 
 # Twilio Configurations
-TWILIO_ACCOUNT_SID = "AC7c7d4322824c0acb94503ee995be1ca0"
-TWILIO_AUTH_TOKEN = "d5f61b74ea98eeb2d82f93878f3c6151"
-TWILIO_PHONE = "+16067220049"
-TO_PHONE = "+917483081028"
+TWILIO_ACCOUNT_SID = "TWILIO_ACCOUNT_SID"
+TWILIO_AUTH_TOKEN = "TWILIO_AUTH_TOKEN"
+TWILIO_PHONE = "TWILIO_PHONE"
+TO_PHONE = "TO_PHONE"
 
 # Wi-Fi Credentials
 SSID = "Rohan"
-PASSWORD = "rasg ckm"
+PASSWORD = "abcd"
 
 # Pins
 TRIG1 = Pin(2, Pin.OUT)
