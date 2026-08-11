@@ -4,12 +4,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Completed-success)](#)
 
-## 📌 Overview
+## Overview
 The Smart Blind Stick is an assistive device designed to help visually impaired individuals navigate safely. It integrates multiple sensors to detect obstacles, measure depth, detect falls, and send GPS location alerts to family members via SMS using Twilio. The stick provides real-time feedback through a buzzer.
 
 ![Block Diagram](./block_diagram.png)
 
-## 📂 Repository Structure
+## Repository Structure
 
 | File | Description |
 | :--- | :--- |
@@ -21,7 +21,7 @@ The Smart Blind Stick is an assistive device designed to help visually impaired 
 
 ---
 
-## 🧩 Components Used
+## Components Used
 * **Raspberry Pi Pico**
 * **GPS Module**
 * **Ultrasonic Sensors (x2)**
@@ -34,7 +34,7 @@ The Smart Blind Stick is an assistive device designed to help visually impaired 
 
 ![Circuit Diagram](./circuit_blind_stick.png)
 
-## ⚙️ Features
+## Features
 * **Obstacle Detection:** Ultrasonic sensor detects nearby obstacles and alerts the user through buzzer.
 * **Depth Detection:** Another ultrasonic sensor measures the depth of drop-offs or steps.
 * **Fall Detection with Delay:** Gyroscope detects if the user falls. After a **10-second delay**, the GPS module sends the user’s location to family members via Twilio SMS, giving the user a chance to cancel false alarms.
@@ -44,7 +44,7 @@ The Smart Blind Stick is an assistive device designed to help visually impaired 
 
 ![Implementation Flow](./implementation_diagram.png)
 
-## ✅ Applications
+## Applications
 * Navigation assistance for visually impaired individuals
 * Safety during walking or mobility
 * Prototype for wearable assistive technology
